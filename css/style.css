@@ -121,7 +121,7 @@ margin-left: 35px;
  text-align: center;
  text-transform: uppercase;
  line-height: normal; 
- margin-top: 2.7em;
+ margin-top: 2.4em;
 }
 
 .trends-fashion-title::after {
@@ -139,7 +139,7 @@ margin-left: 35px;
 
 .trends-block {
   display: flex;
-  margin-bottom: 64px;
+  margin-bottom: 60px;
   justify-content: space-between;
   width: 100%;
 }
@@ -218,7 +218,7 @@ margin-left: 35px;
   margin-left: 20px;
   margin-bottom: 16px;
   min-height: 146px;
-  padding: 40px 30px 30px;
+  padding: 32px 30px 30px;
   /*position: relative;*/
 }
   
@@ -302,7 +302,7 @@ margin-left: 35px;
    font-weight: 700;
    line-height: 1.2;
    margin-top: 0; 
-   margin-bottom: 30px;
+   margin-bottom: 28px;
 }
 
 .date-author {
@@ -346,7 +346,7 @@ margin-left: 35px;
 
 .new-posts {
   width: 271px;
-  margin-left: 130px;
+  margin-left: 121px;
 }
 
 .new-posts-title {
@@ -714,7 +714,7 @@ margin-left: 35px;
    font-size: 15px;
    font-weight: 400;
    line-height: 1.5;
-   padding-top: 10px;
+   /*padding-top: 10px;*/
 }
 
   .product-link {
@@ -733,7 +733,7 @@ margin-left: 35px;
   }
 
 .product-body {
-   padding: 22px 22px 22px;
+   padding: 19px 22px 0;
 }
 
 .product__price {
