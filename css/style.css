@@ -280,9 +280,10 @@ margin-left: 35px;
   display: flex; 
 }
 
-.card-tag-item {
+.card-tag-item:nth-child(odd) {
  margin-right:16px;
  }
+
 
 .card-tag {
    text-decoration: none;
@@ -541,7 +542,7 @@ margin-left: 35px;
 
 .tag-menu-item {
   border: 3px solid #eeeeee;
-  padding: 3px 15px;
+  padding: 3px 14px;
   margin: 1px;
 }
 
@@ -1135,12 +1136,15 @@ url(../svg/form-circle.svg);
 @media (max-width: 640px) {
   .header {
   background-image: url(../images/banner-mobile.jpg);
+  padding-bottom: 13rem;
+}
+
   } 
 
   .header-title {
     font-size: 26px;
-    line-height: 1;
-    margin-top: 1.6em;
+    line-height: 1.4;
+    margin-top: 1.4em;
   }
  
 
@@ -1148,6 +1152,10 @@ url(../svg/form-circle.svg);
     font-size: 26px;
     margin-top: 6.6em;
   }
+
+  .logo {
+    width: 275px;
+}
 
   .header-container {
     display: flex;
@@ -1161,6 +1169,10 @@ url(../svg/form-circle.svg);
   .trends-fashion-title {
     font-size: 16px;
   }
+
+  .trends-fashion-title::after {
+   margin-bottom: 26px;
+ }
 
   .trend-link {
     font-size: 16px;
@@ -1180,7 +1192,7 @@ url(../svg/form-circle.svg);
   margin-left: 15px;
   margin-bottom: 15px;
   min-height: 120px;
-  padding: 30px 25px 21px 22px;
+  padding: 31px 25px 15px;
   line-height: 1;
   }
 
@@ -1203,11 +1215,17 @@ url(../svg/form-circle.svg);
    .card-header {
     align-items: flex-start;
     margin-left: 0;
-    margin-top: 15px;
+    margin-top: 13px;
+   }
+
+   .card-tags {
+    margin-bottom: 9px;
    }
   
    .news {
-    padding: 0 12px;
+    padding: 0 1.4rem 0 0.6rem;
+    margin-top: 2.3rem;
+    margin-bottom: 0.4rem;
    }
 
    .article-post {
@@ -1215,7 +1233,7 @@ url(../svg/form-circle.svg);
     border-style: none none solid;
     border-color: #eeeeee;
     padding-bottom: 22px;
-    margin-bottom: 35px;
+    margin-bottom: 32px;
 
    }
    .article-img {
@@ -1224,10 +1242,10 @@ url(../svg/form-circle.svg);
   
   .card-name {
     font-size: 16px;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.9em;
   }
   .date-author {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 
   .card-content {
@@ -1235,10 +1253,14 @@ url(../svg/form-circle.svg);
     line-height: 1.4;
   }
 
+  .paragraph {
+    margin-bottom: 6px;
+}
+
   .new-posts {
     width: 100%;
     margin-left: 0;
-    margin-top: 15%;
+    margin-top: 11%;
   }
 
   .new-posts-title {
@@ -1246,11 +1268,20 @@ url(../svg/form-circle.svg);
   }
 
   .new-posts-title::after {
-    margin-bottom: 1.8em;
+    margin-top: 0.6em;
+    margin-bottom: 1.4em;
   } 
 
   .post:nth-child(n+2) {
-    margin-top: 6%;
+    margin-top: 1.3rem;
+  }
+
+  .post-img {
+    margin-right: 17px;
+  }
+
+  .field {
+    margin-top: 4rem;
   }
 
   .field-search, .field-find, .field-form, .button-mail, .socials-icons {
@@ -1259,12 +1290,12 @@ url(../svg/form-circle.svg);
 
 .newsletter-block-title, .tags-container-title {
   font-size: 16px;
-  margin-top: 2.7em;
+  margin-top: 2.4em;
 }
 
 .newsletter-block-title::after,
 .tags-container-title::after {
-  margin-top: 0.9em;
+  margin-top: 0.6em;
 }
 
 .field-form {
@@ -1277,7 +1308,11 @@ url(../svg/form-circle.svg);
 }
 
 .themes-menu {
-  margin-top: 44px;
+  margin-top: 2.4rem;
+}
+
+.theme-list-number {
+  padding-left: 0;
 }
 
 .themes-menu-item::after {
@@ -1297,7 +1332,7 @@ url(../svg/form-circle.svg);
 }
 
 .products-our-title::after {
-  margin-top: 0.8em;
+  margin-top: 0.6em;
  } 
 
 .product-title {
@@ -1315,14 +1350,24 @@ url(../svg/form-circle.svg);
   }
 
  .product:nth-child(n+2) {
-    margin-top: 7%;
+    margin-top: 1.5rem;
   }
+
+  .product-box {
+    padding-left: 1.4rem;
+    padding-right: 1.6rem;
+  }  
 
   .product-img {
     width: 100%;
   }
 
+  .product-body {
+    padding: 1.3rem 1.7rem 2rem 1rem;
+}
+
   .product-footer {
+    padding-top: 1.3rem;
     padding-bottom: 0;
   }
 
@@ -1426,7 +1471,7 @@ url(../svg/form-circle.svg);
   .header-title {
     font-size: 40px;
     line-height: 1.4;
-    margin-top: 2.5em;
+    margin-top: 2.3em;
     max-width: 622px;
   }
 
@@ -1610,15 +1655,15 @@ url(../svg/form-circle.svg);
 }
 
   .products {
-  margin-bottom: 44px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-grow: 1;
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
 
 }
 
-.products-our-title {
+  .products-our-title {
     font-size: 18px;
     margin-top: 0.5em;
   }  
@@ -1753,9 +1798,7 @@ url(../svg/form-circle.svg);
     margin-right: 0;
   } 
 
-  .card-tag-item:first-child {
- margin-right:16px;
- }
+  
 }
 
 
