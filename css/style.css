@@ -1190,7 +1190,7 @@ url(../svg/form-circle.svg);
   margin-left: 15px;
   margin-bottom: 15px;
   min-height: 120px;
-  padding: 31px 25px 15px;
+  padding: 37px 19px 30px;
   line-height: 1;
   }
 
@@ -1258,7 +1258,7 @@ url(../svg/form-circle.svg);
   .new-posts {
     width: 100%;
     margin-left: 0;
-    margin-top: 11%;
+    margin-top: 12%;
   }
 
   .new-posts-title {
@@ -1348,7 +1348,7 @@ url(../svg/form-circle.svg);
   }
 
  .product:nth-child(n+2) {
-    margin-top: 1.5rem;
+    margin-top: 1.3rem;
   }
 
   .product-box {
@@ -1378,7 +1378,7 @@ url(../svg/form-circle.svg);
   }
 
   .footer-copirate {
-    margin: 16.6% 5% 15.6%;
+    margin: margin: 16% 1% 15%;;
   }
 
   /*popup mobile*/
